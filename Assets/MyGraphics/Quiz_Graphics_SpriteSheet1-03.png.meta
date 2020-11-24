@@ -1,43 +1,40 @@
 fileFormatVersion: 2
-guid: ee8bd5319a08c78419c3f91ff825dc35
+guid: 0b2bfe75b5e968a41b3300118d85518f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9057085383656503074
-    second: Quiz_Graphics_SpriteSheet0_0
+      213: -3138116420691445373
+    second: Quiz_Graphics_SpriteSheet1-03_0
   - first:
-      213: 3924964793701865827
-    second: Quiz_Graphics_SpriteSheet0_1
+      213: 5125178778491914458
+    second: Quiz_Graphics_SpriteSheet1-03_1
   - first:
-      213: -756884591379197594
-    second: Quiz_Graphics_SpriteSheet0_2
+      213: 7958666038026709678
+    second: Quiz_Graphics_SpriteSheet1-03_2
   - first:
-      213: -2998231434408489015
-    second: Quiz_Graphics_SpriteSheet0_3
+      213: 8318075319224967097
+    second: Quiz_Graphics_SpriteSheet1-03_3
   - first:
-      213: -1570632215670515798
-    second: Quiz_Graphics_SpriteSheet0_4
+      213: -8885814149071845460
+    second: Quiz_Graphics_SpriteSheet1-03_4
   - first:
-      213: -4979374229834245407
-    second: Quiz_Graphics_SpriteSheet0_5
+      213: 7304568704697907310
+    second: Quiz_Graphics_SpriteSheet1-03_5
   - first:
-      213: 463740720247615441
-    second: Quiz_Graphics_SpriteSheet0_6
+      213: 4241483592775648810
+    second: Quiz_Graphics_SpriteSheet1-03_6
   - first:
-      213: 3181316586865666134
-    second: Quiz_Graphics_SpriteSheet0_7
+      213: 5719224670933365766
+    second: Quiz_Graphics_SpriteSheet1-03_7
   - first:
-      213: 3725544067524836873
-    second: Quiz_Graphics_SpriteSheet0_8
+      213: -8658497475629805783
+    second: Quiz_Graphics_SpriteSheet1-03_8
   - first:
-      213: -561327367691943729
-    second: Quiz_Graphics_SpriteSheet0_9
+      213: 8863795457524054093
+    second: Quiz_Graphics_SpriteSheet1-03_9
   - first:
-      213: 8874351786368378196
-    second: Quiz_Graphics_SpriteSheet0_10
-  - first:
-      213: 6866113852430466872
-    second: Quiz_Graphics_SpriteSheet0_11
+      213: 8483495825494391768
+    second: Quiz_Graphics_SpriteSheet1-03_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_0
+      name: Quiz_Graphics_SpriteSheet1-03_0
       rect:
         serializedVersion: 2
-        x: 202
-        y: 1560
-        width: 365
-        height: 455
+        x: 224
+        y: 1483
+        width: 357
+        height: 534
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2277a318b2b31bd70800000000000000
-      internalID: 9057085383656503074
+      spriteID: 389bdd8edbb2374d0800000000000000
+      internalID: -3138116420691445373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_1
+      name: Quiz_Graphics_SpriteSheet1-03_1
       rect:
         serializedVersion: 2
-        x: 763
-        y: 1563
-        width: 269
-        height: 506
+        x: 1437
+        y: 1470
+        width: 439
+        height: 535
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 369938c3fa6487630800000000000000
-      internalID: 3924964793701865827
+      spriteID: ad88166d1fa402740800000000000000
+      internalID: 5125178778491914458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_2
+      name: Quiz_Graphics_SpriteSheet1-03_2
       rect:
         serializedVersion: 2
-        x: 1150
-        y: 1538
-        width: 476
-        height: 473
+        x: 2754
+        y: 1776
+        width: 333
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66150ea69710f75f0800000000000000
-      internalID: -756884591379197594
+      spriteID: eaa2c82489cd27e60800000000000000
+      internalID: 7958666038026709678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_3
+      name: Quiz_Graphics_SpriteSheet1-03_3
       rect:
         serializedVersion: 2
-        x: 1996
-        y: 1831
-        width: 195
-        height: 205
+        x: 2709
+        y: 1503
+        width: 355
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cf0cad45642466d0800000000000000
-      internalID: -2998231434408489015
+      spriteID: 9bf19598e6dbf6370800000000000000
+      internalID: 8318075319224967097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_4
+      name: Quiz_Graphics_SpriteSheet1-03_4
       rect:
         serializedVersion: 2
-        x: 2375
-        y: 1499
-        width: 384
-        height: 625
+        x: 331
+        y: 1101
+        width: 88
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa79c28425ef33ae0800000000000000
-      internalID: -1570632215670515798
+      spriteID: ca7ce684c1f3fa480800000000000000
+      internalID: -8885814149071845460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_6
+      name: Quiz_Graphics_SpriteSheet1-03_5
       rect:
         serializedVersion: 2
-        x: 67
-        y: 1065
-        width: 786
-        height: 323
+        x: 614
+        y: 970
+        width: 293
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +251,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1df2e326ab98f6600800000000000000
-      internalID: 463740720247615441
+      spriteID: e6834f0298a0f5560800000000000000
+      internalID: 7304568704697907310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_7
+      name: Quiz_Graphics_SpriteSheet1-03_6
       rect:
         serializedVersion: 2
-        x: 1234
-        y: 984
-        width: 295
-        height: 310
+        x: 1624
+        y: 937
+        width: 1468
+        height: 344
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 658af26949e462c20800000000000000
-      internalID: 3181316586865666134
+      spriteID: a264a04fad6ccda30800000000000000
+      internalID: 4241483592775648810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_8
+      name: Quiz_Graphics_SpriteSheet1-03_7
       rect:
         serializedVersion: 2
-        x: 112
-        y: 206
-        width: 532
-        height: 613
+        x: 204
+        y: 200
+        width: 512
+        height: 641
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,14 +293,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90eb1e3379ac3b330800000000000000
-      internalID: 3725544067524836873
+      spriteID: 60432a55984ce5f40800000000000000
+      internalID: 5719224670933365766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_9
+      name: Quiz_Graphics_SpriteSheet1-03_8
       rect:
         serializedVersion: 2
         x: 961
@@ -317,14 +314,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc0440eabb3c538f0800000000000000
-      internalID: -561327367691943729
+      spriteID: 92f087cab66d6d780800000000000000
+      internalID: -8658497475629805783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_10
+      name: Quiz_Graphics_SpriteSheet1-03_9
       rect:
         serializedVersion: 2
         x: 1812
@@ -338,14 +335,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 455275e6ee7082b70800000000000000
-      internalID: 8874351786368378196
+      spriteID: d4831779107820b70800000000000000
+      internalID: 8863795457524054093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quiz_Graphics_SpriteSheet0_11
+      name: Quiz_Graphics_SpriteSheet1-03_10
       rect:
         serializedVersion: 2
         x: 2657
@@ -359,8 +356,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83fb189ab26594f50800000000000000
-      internalID: 6866113852430466872
+      spriteID: 8db3a1c718e6bb570800000000000000
+      internalID: 8483495825494391768
       vertices: []
       indices: 
       edges: []

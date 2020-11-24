@@ -14,7 +14,7 @@ public class Match_MasterClass : MonoBehaviour
     static bool isRetrying = false;
 
     short pointCount = 0;
-    bool isWin = false;
+
     void Start()
     {
         HelpBtn();
@@ -24,38 +24,25 @@ public class Match_MasterClass : MonoBehaviour
     {
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0;
-        if (!isWin) confirm();
     }
 
     public void HelpBtn()
     {
-        //if (isRetrying) instPanel.ShowPopUp("هناك خطأ أعد مرة أخرى");
-        //else instPanel.ShowPopUp("أربط بسهم");
+        if (isRetrying) Debug.Log("هناك خطأ أعد مرة أخرى");
+        else Debug.Log("أربط بسهم");
         isRetrying = false;
 
     }
 
-    void confirm()
+    public void confirm()
     {
 
         if (pointCount == rightAnswers.Length)
         {
-            //instPanel.ShowPopUp("أحسنت");
-            isWin = true;
+            Debug.Log("أحسنت");
             isRetrying = false;
         }
 
-    }
-
-    public void Retry()
-    {
-        isRetrying = true;
-        SceneManager.LoadScene("QuizGameMatching");
-    }
-
-    public void ReturnBtn()
-    {
-        SceneManager.LoadScene("1-Main_Menu");
     }
 
     public void SetNewLinePos(Vector2 newPos)

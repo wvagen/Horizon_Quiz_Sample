@@ -21,9 +21,9 @@ namespace UPersian.Utils
             
             // str = str.Replace('ک', 'ﻙ');
             //str = str.Replace('ﻚ', 'ک');
-            str = ArabicSupport.ArabicFixer.Fix(str);
-            str = str.Replace('ي', 'ى');
-            str = str.Replace('ﻲ', 'ﻰ');
+            str = ArabicSupport.ArabicFixer.Fix(str,true,false);
+            //str = str.Replace('ي', 'ى');
+            //str = str.Replace('ﻲ', 'ﻰ');
             
             // str = str.Replace('ﺃ', 'آ');
             return str;
