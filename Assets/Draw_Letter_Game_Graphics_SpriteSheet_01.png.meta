@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: e3bcb949003103048bff7047ac77c723
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3270603929040525050
+    second: Draw_Letter_Game_Graphics_SpriteSheet_01_0
+  - first:
+      213: -2504593121701911511
+    second: Draw_Letter_Game_Graphics_SpriteSheet_01_1
+  - first:
+      213: 1673693989864354980
+    second: Draw_Letter_Game_Graphics_SpriteSheet_01_2
+  - first:
+      213: -6302127221932793946
+    second: Draw_Letter_Game_Graphics_SpriteSheet_01_3
+  - first:
+      213: 2688177262285876542
+    second: Draw_Letter_Game_Graphics_SpriteSheet_01_4
+  - first:
+      213: 2933160240349803803
+    second: Draw_Letter_Game_Graphics_SpriteSheet_01_5
+  - first:
+      213: 4414053806534814847
+    second: Draw_Letter_Game_Graphics_SpriteSheet_01_6
+  - first:
+      213: 8843040280957460299
+    second: Draw_Letter_Game_Graphics_SpriteSheet_01_7
+  - first:
+      213: 2159291205706310317
+    second: Draw_Letter_Game_Graphics_SpriteSheet_01_8
+  - first:
+      213: 2638561282311338477
+    second: Draw_Letter_Game_Graphics_SpriteSheet_01_9
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Draw_Letter_Game_Graphics_SpriteSheet_01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3489
+        width: 191
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18759421a16fffb4b9902bbabff76a92
+      internalID: 3270603929040525050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draw_Letter_Game_Graphics_SpriteSheet_01_1
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 3438
+        width: 795
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6443a1d2f4d0ed34a9d979dc62e0233a
+      internalID: -2504593121701911511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draw_Letter_Game_Graphics_SpriteSheet_01_2
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 3284
+        width: 1294
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd51ab2d38529a40b31eaa5404cef8d
+      internalID: 1673693989864354980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draw_Letter_Game_Graphics_SpriteSheet_01_3
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 3520
+        width: 313
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace7a65f9a17abd45bb2ee93fe04106b
+      internalID: -6302127221932793946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draw_Letter_Game_Graphics_SpriteSheet_01_4
+      rect:
+        serializedVersion: 2
+        x: 5557
+        y: 3524
+        width: 312
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6999c6b8d2ebe44976f3bd1a3a5555
+      internalID: 2688177262285876542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draw_Letter_Game_Graphics_SpriteSheet_01_5
+      rect:
+        serializedVersion: 2
+        x: 6196
+        y: 3414
+        width: 852
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74bd69e1914124468433f8ce1a5a534
+      internalID: 2933160240349803803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draw_Letter_Game_Graphics_SpriteSheet_01_6
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 449
+        width: 4649
+        height: 2489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3713722f35b864e9979f21a32fc35a
+      internalID: 4414053806534814847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draw_Letter_Game_Graphics_SpriteSheet_01_7
+      rect:
+        serializedVersion: 2
+        x: 5157
+        y: 2587
+        width: 375
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7f475202a09374a9560f8b930e7804
+      internalID: 8843040280957460299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draw_Letter_Game_Graphics_SpriteSheet_01_8
+      rect:
+        serializedVersion: 2
+        x: 6028
+        y: 2587
+        width: 375
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450b897822e4d4c40856599efe2bd0fb
+      internalID: 2159291205706310317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draw_Letter_Game_Graphics_SpriteSheet_01_9
+      rect:
+        serializedVersion: 2
+        x: 5160
+        y: 721
+        width: 1690
+        height: 1556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56da126411dcb5341a52e8b38ab46240
+      internalID: 2638561282311338477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
