@@ -16,7 +16,6 @@ public class ActivityMatch : MonoBehaviour {
 
     void Start()
     {
-        myLine = GetComponent<LineRenderer>();
         ResetLinePositions();
     }
 
@@ -71,7 +70,6 @@ public class ActivityMatch : MonoBehaviour {
             && masterClass.selectedOne != this && 
             this.tag != masterClass.selectedOne.tag && !isMatched)
         {
-            Debug.Log("YES");
             isMatched = true;
             masterClass.SetNewLinePos(transform.position);
             CheckTheSolution();
