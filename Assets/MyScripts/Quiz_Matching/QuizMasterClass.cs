@@ -54,7 +54,7 @@ public class QuizMasterClass : MonoBehaviour {
 
     public void ReturnBtn()
     {
-        SceneManager.LoadScene("MainArScene");
+        SceneManager.LoadScene("1-Main_Menu");
     }
 
    public void SetNewLinePos(Vector2 newPos)
@@ -69,7 +69,6 @@ public class QuizMasterClass : MonoBehaviour {
        
        if (rightAnswers[part1Indice].y == part2Indice)
        {
-           Debug.Log("RIGHT ANSWER");
            pointCount++;
        }
 
