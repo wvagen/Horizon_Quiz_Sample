@@ -5,7 +5,7 @@ using UnityEngine;
 public class ActivityMatch : MonoBehaviour {
 
     public GameObject pointToDrag;
-    public QuizMasterClass masterClass;
+    public Match_MasterClass masterClass;
     public LineRenderer myLine;
     public bool isPressed = false;
    
