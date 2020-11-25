@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SldieAnswer_MasterClass : MonoBehaviour
 {
 
-    public Quiz_Game_Over_Manager gameOverManager;
+    public Quiz_Game_Manager gameManager;
 
     public Transform dropAreaTransform;
 
@@ -32,11 +32,11 @@ public class SldieAnswer_MasterClass : MonoBehaviour
         if (this.sliderGameSugg.isRightAnswer)
         {
             myAudioSource.PlayOneShot(successAudioClip);
-            gameOverManager.WinLoseLevelManager(true, 3);
+            gameManager.Next_Level();
         }
         else
         {
-            gameOverManager.WinLoseLevelManager(false);
+            gameManager.Lose_Level();
             myAudioSource.PlayOneShot(FailureAudioClip);
         }
     }
@@ -53,7 +53,7 @@ public class SldieAnswer_MasterClass : MonoBehaviour
         else
         {
             sliderGameSugg.Snap_Me(sliderGameSugg.initPos, false);
-            if (this.sliderGameSugg.Equals(sliderGameSugg) && isFilled)
+            if (this.sliderGameSugg && this.sliderGameSugg.Equals(sliderGameSugg) && isFilled)
             {
                 isFilled = false;
                 ConfirmBtnBehaviour(false);

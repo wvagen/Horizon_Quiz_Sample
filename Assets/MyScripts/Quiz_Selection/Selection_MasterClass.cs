@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Selection_MasterClass : MonoBehaviour
 {
 
-    public Quiz_Game_Over_Manager gameOverManager;
+    public Quiz_Game_Manager gameManager;
 
     public AudioSource myAudioSource;
     public AudioClip successAudioClip, FailureAudioClip;
@@ -33,7 +33,7 @@ public class Selection_MasterClass : MonoBehaviour
         {
             myAudioSource.PlayOneShot(successAudioClip);
             selectedAnswer.Right_Answer_Behaviour();
-            gameOverManager.WinLoseLevelManager(true, 3);
+            gameManager.Next_Level();
         }
         else
         {

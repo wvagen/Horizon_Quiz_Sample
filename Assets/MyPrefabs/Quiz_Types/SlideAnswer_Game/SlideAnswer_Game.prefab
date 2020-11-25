@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -99.32861, y: 104.642334}
-  m_SizeDelta: {x: 146.83127, y: 154.68646}
+  m_AnchoredPosition: {x: -94, y: 105}
+  m_SizeDelta: {x: 140.46692, y: 146.22083}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5712046409166735133
 CanvasRenderer:
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 228de9acc1ed3724f8d01d266cac7342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverManager: {fileID: 0}
+  gameManager: {fileID: 0}
   dropAreaTransform: {fileID: 7289687623205149532}
   myAudioSource: {fileID: 5712046409673271438}
   successAudioClip: {fileID: 8300000, guid: 5400895994ad1fe4cb6b3ce83c58f3e0, type: 3}

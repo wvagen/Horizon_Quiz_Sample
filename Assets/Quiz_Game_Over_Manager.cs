@@ -161,7 +161,7 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
     public void NextLevel()
     {
         //Here we must adapt each code with the game
-        //Game_110_Game_Manager.levelIndex++;
+        Quiz_Game_Manager.currentLevelIndex++;
         RetryLevel();
     }
 
@@ -214,7 +214,7 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
     public void Quit()
     {
         //Here we must adapt each code with the game
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("1-Main_Menu");
     }
 
     void SaveDataManager(int starsOwned, byte levelIndex)
@@ -235,7 +235,7 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
 
     public void Set_Level_As_Finished()
     {
-        PlayerPrefs.SetString(LEVEL_REACHED_KEY, PlayerPrefs.GetString(LEVEL_REACHED_KEY, "0") + "-" + levelMapGameName);
+        PlayerPrefs.SetString(LEVEL_REACHED_KEY, PlayerPrefs.GetString(LEVEL_REACHED_KEY, string.Empty) + "-" + levelMapGameName);
     }
 
 }

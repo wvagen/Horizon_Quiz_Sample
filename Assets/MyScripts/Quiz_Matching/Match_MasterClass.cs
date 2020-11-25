@@ -5,20 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Match_MasterClass : MonoBehaviour
 {
+    public Quiz_Game_Manager gameManager;
 
     public Vector3 mousePos;
     public ActivityMatch selectedOne;
     //public InstructionsPanel instPanel;
     public Vector2[] rightAnswers;
 
-    static bool isRetrying = false;
-
     short pointCount = 0;
-
-    void Start()
-    {
-        HelpBtn();
-    }
 
     void Update()
     {
@@ -26,21 +20,17 @@ public class Match_MasterClass : MonoBehaviour
         mousePos.z = 0;
     }
 
-    public void HelpBtn()
-    {
-        if (isRetrying) Debug.Log("هناك خطأ أعد مرة أخرى");
-        else Debug.Log("أربط بسهم");
-        isRetrying = false;
-
-    }
 
     public void confirm()
     {
 
         if (pointCount == rightAnswers.Length)
         {
-            Debug.Log("أحسنت");
-            isRetrying = false;
+            gameManager.Next_Level();
+        }
+        else
+        {
+            gameManager.Lose_Level();
         }
 
     }
