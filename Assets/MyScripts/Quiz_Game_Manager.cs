@@ -28,12 +28,6 @@ public class Quiz_Game_Manager : MonoBehaviour
         {
             quizGameOverManager.WinLoseLevelManager(true, 3);
         }
-        else
-        {
-            quizGameOverManager.Set_Level_As_Finished();
-            quizGameOverManager.Quit();
-        }
-
     }
 
     public void Lose_Level()
@@ -43,9 +37,17 @@ public class Quiz_Game_Manager : MonoBehaviour
 
     void Enable_Level_With_Index()
     {
-        quizLevels[currentLevelIndex].SetActive(true);
-        myAudioSource.PlayOneShot(instructionsOptions[currentLevelIndex]);
-        quizGameOverManager.instructionsTxt.text = instructions[currentLevelIndex];
+        if (currentLevelIndex < quizLevels.Length)
+        {
+            quizLevels[currentLevelIndex].SetActive(true);
+            myAudioSource.PlayOneShot(instructionsOptions[currentLevelIndex]);
+            quizGameOverManager.instructionsTxt.text = instructions[currentLevelIndex];
+        }
+        else
+        {
+            quizGameOverManager.Set_Level_As_Finished();
+            quizGameOverManager.Quit();
+        }
     }
 
 
