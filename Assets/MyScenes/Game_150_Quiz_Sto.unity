@@ -549,6 +549,11 @@ PrefabInstance:
       propertyPath: levelMapGameName
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 4563775414000358035, guid: 4cc9a30f6cfa46a4b970f18cbdc5b536,
+        type: 3}
+      propertyPath: m_Text
+      value: "\u062D\u064E\u0627\u0648\u0644\u0652 \u0645\u064F\u062C\u064E\u062F\u062F\u0627"
+      objectReference: {fileID: 0}
     - target: {fileID: 4563775414705749542, guid: 4cc9a30f6cfa46a4b970f18cbdc5b536,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -668,6 +673,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4563775415440810469, guid: 4cc9a30f6cfa46a4b970f18cbdc5b536,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cc9a30f6cfa46a4b970f18cbdc5b536, type: 3}

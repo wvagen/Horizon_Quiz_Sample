@@ -12,6 +12,7 @@ public class Quiz_Game_Manager : MonoBehaviour
 
     void Start()
     {
+        Screen.orientation = ScreenOrientation.Landscape;
         Enable_Level_With_Index();
     }
 
