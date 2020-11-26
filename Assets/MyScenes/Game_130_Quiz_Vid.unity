@@ -756,7 +756,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5400895994ad1fe4cb6b3ce83c58f3e0, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1130,6 +1130,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1628199341}
     m_Modifications:
+    - target: {fileID: 328604199224790424, guid: 96f5136a510fcec4dbc8355559d0ed75,
+        type: 3}
+      propertyPath: myAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b901b6957539a5c4db18064be6462cde, type: 3}
+    - target: {fileID: 328604200402522548, guid: 96f5136a510fcec4dbc8355559d0ed75,
+        type: 3}
+      propertyPath: myAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 448429d6c4646ef4282e2ad5ebce9067, type: 3}
     - target: {fileID: 546213708101128390, guid: 96f5136a510fcec4dbc8355559d0ed75,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1334,6 +1344,16 @@ PrefabInstance:
       propertyPath: rightAnswers.Array.data[0].y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7337603802111110584, guid: 96f5136a510fcec4dbc8355559d0ed75,
+        type: 3}
+      propertyPath: myAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1da2dcb5ead1efb4b97a833f55089e77, type: 3}
+    - target: {fileID: 7851692104775794225, guid: 96f5136a510fcec4dbc8355559d0ed75,
+        type: 3}
+      propertyPath: myAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e2665852fbae65644930607598c1ab0f, type: 3}
     - target: {fileID: 8065161747109445443, guid: 96f5136a510fcec4dbc8355559d0ed75,
         type: 3}
       propertyPath: m_AnchorMin.y

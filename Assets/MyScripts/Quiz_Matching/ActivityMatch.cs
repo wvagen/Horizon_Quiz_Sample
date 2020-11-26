@@ -2,18 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActivityMatch : MonoBehaviour {
+public class ActivityMatch : MonoBehaviour
+{
 
     public GameObject pointToDrag;
     public Match_MasterClass masterClass;
     public LineRenderer myLine;
     public bool isPressed = false;
-   
-   bool isMatched = false;
+
+    bool isMatched = false;
 
 
     GameObject tempPoint;
 
+    const byte MIN_DIST_TO_DETECT_COLLISION = 1;
     void Start()
     {
         ResetLinePositions();
@@ -26,12 +28,17 @@ public class ActivityMatch : MonoBehaviour {
             tempPoint.transform.position = masterClass.mousePos;
             myLine.SetPosition(1, masterClass.mousePos);
         }
+        else if (masterClass.selectedOne != null)
+        {
+            Detect_Collision_With_Distance();
+        }
 
         if (Input.GetKeyDown(KeyCode.Q)) Debug.Break();
 
     }
 
-    public void OnPointerDown () {
+    public void OnPointerDown()
+    {
         if (isMatched) return;
         Vector3 myPos = transform.position;
         myPos.z = 0;
@@ -39,7 +46,7 @@ public class ActivityMatch : MonoBehaviour {
         myLine.SetPosition(0, myPos);
         masterClass.selectedOne = this;
         isPressed = true;
-	}
+    }
     public void OnPointerUp()
     {
         if (!isMatched)
@@ -63,12 +70,12 @@ public class ActivityMatch : MonoBehaviour {
         isMatched = true;
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    void Detect_Collision_With_Distance()
     {
 
-        if (col.tag == "Point" && masterClass.selectedOne != null
-            && masterClass.selectedOne != this && 
-            this.tag != masterClass.selectedOne.tag && !isMatched)
+        if (Vector2.Distance(transform.position,masterClass.mousePos) <= MIN_DIST_TO_DETECT_COLLISION  
+            &&masterClass.selectedOne != this 
+            && this.tag != masterClass.selectedOne.tag && !isMatched)
         {
             isMatched = true;
             masterClass.SetNewLinePos(transform.position);
