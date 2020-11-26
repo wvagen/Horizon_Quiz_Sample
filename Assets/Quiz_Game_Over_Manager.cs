@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UPersian.Components;
 
 public class Quiz_Game_Over_Manager : MonoBehaviour
 {
@@ -17,6 +18,10 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
     public Image musicImg, sfxImg;
 
     public GameObject[] starsOwned;
+    public RtlText instructionsTxt;
+
+    public AudioSource myAudioSource;
+    public AudioClip successSFX, failureSFX;
 
     public static bool musicOn = true;
     public static bool sfxOn = true;
@@ -51,6 +56,9 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
         {
             star.SetActive(false);
         }
+
+        if (isWin) myAudioSource.PlayOneShot(successSFX);
+        else myAudioSource.PlayOneShot(failureSFX);
 
         StartCoroutine(containerPanelAnimation());
     }

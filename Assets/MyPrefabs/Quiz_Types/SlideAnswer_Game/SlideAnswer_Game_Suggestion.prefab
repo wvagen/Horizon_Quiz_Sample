@@ -159,7 +159,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slideAnswerMasterClass: {fileID: 0}
+  myAudioSource: {fileID: 7645701910663660596}
+  myAnswerClip: {fileID: 0}
   initPos: {x: 0, y: 0}
+  isRightAnswer: 0
 --- !u!114 &2023271713848576133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,8 +354,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: PlayAnswerSound
+      - m_Target: {fileID: 2023271713848576128}
+        m_MethodName: Listen_To_Answer_Btn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

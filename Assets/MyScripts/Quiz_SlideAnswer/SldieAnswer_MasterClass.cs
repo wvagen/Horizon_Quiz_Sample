@@ -10,9 +10,6 @@ public class SldieAnswer_MasterClass : MonoBehaviour
 
     public Transform dropAreaTransform;
 
-    public AudioSource myAudioSource;
-    public AudioClip successAudioClip, FailureAudioClip;
-
     public Button confirmBtn;
 
     SlideAnswer_Game_Suggestion sliderGameSugg;
@@ -31,13 +28,11 @@ public class SldieAnswer_MasterClass : MonoBehaviour
     {
         if (this.sliderGameSugg.isRightAnswer)
         {
-            myAudioSource.PlayOneShot(successAudioClip);
             gameManager.Next_Level();
         }
         else
         {
             gameManager.Lose_Level();
-            myAudioSource.PlayOneShot(FailureAudioClip);
         }
     }
 

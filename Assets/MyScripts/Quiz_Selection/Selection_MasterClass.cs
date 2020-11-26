@@ -8,9 +8,6 @@ public class Selection_MasterClass : MonoBehaviour
 
     public Quiz_Game_Manager gameManager;
 
-    public AudioSource myAudioSource;
-    public AudioClip successAudioClip, FailureAudioClip;
-
     public Button confirmBtn;
 
     Selection_Game_Suggestion selectedAnswer;
@@ -31,14 +28,12 @@ public class Selection_MasterClass : MonoBehaviour
     {
         if (selectedAnswer.isRightAnswer)
         {
-            myAudioSource.PlayOneShot(successAudioClip);
             selectedAnswer.Right_Answer_Behaviour();
             gameManager.Next_Level();
         }
         else
         {
             selectedAnswer.Wrong_Answer_Behaviour();
-            myAudioSource.PlayOneShot(FailureAudioClip);
         }
     }
 

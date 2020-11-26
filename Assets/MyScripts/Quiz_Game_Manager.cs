@@ -6,7 +6,13 @@ public class Quiz_Game_Manager : MonoBehaviour
 {
 
     public Quiz_Game_Over_Manager quizGameOverManager;
+
     public GameObject[] quizLevels;
+
+    public AudioClip[] instructionsOptions;
+    public string[] instructions;
+
+    public AudioSource myAudioSource;
 
     public static byte currentLevelIndex = 0;
 
@@ -38,6 +44,8 @@ public class Quiz_Game_Manager : MonoBehaviour
     void Enable_Level_With_Index()
     {
         quizLevels[currentLevelIndex].SetActive(true);
+        myAudioSource.PlayOneShot(instructionsOptions[currentLevelIndex]);
+        quizGameOverManager.instructionsTxt.text = instructions[currentLevelIndex];
     }
 
 
