@@ -222,6 +222,7 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
     public void Quit()
     {
         //Here we must adapt each code with the game
+        Quiz_Game_Manager.currentLevelIndex = 0;
         SceneManager.LoadScene("1-Main_Menu");
     }
 
