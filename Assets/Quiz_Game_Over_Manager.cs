@@ -223,7 +223,14 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
     {
         //Here we must adapt each code with the game
         Quiz_Game_Manager.currentLevelIndex = 0;
-        SceneManager.LoadScene("1-Main_Menu");
+        if (PlayerPrefs.GetInt("Tutorial_Finished_Profile_Menu", 0) == 0)
+        {
+            SceneManager.LoadScene("1-Main_Menu");
+        }
+        else
+        {
+            SceneManager.LoadScene("4_Map_Scene");
+        }
     }
 
     void SaveDataManager(int starsOwned, byte levelIndex)

@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: b9f85459521b6474fb608d4d099c3dbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1240923654081009101
+    second: Graphics_Quiz_SpriteSheet2-02_0
+  - first:
+      213: -3544435313041132518
+    second: Graphics_Quiz_SpriteSheet2-02_1
+  - first:
+      213: 8180323278020603172
+    second: Graphics_Quiz_SpriteSheet2-02_2
+  - first:
+      213: -2328406421767727338
+    second: Graphics_Quiz_SpriteSheet2-02_3
+  - first:
+      213: -2775324055452307296
+    second: Graphics_Quiz_SpriteSheet2-02_4
+  - first:
+      213: -7797231838994431359
+    second: Graphics_Quiz_SpriteSheet2-02_5
+  - first:
+      213: 357549684081038356
+    second: Graphics_Quiz_SpriteSheet2-02_6
+  - first:
+      213: -2864316621789904324
+    second: Graphics_Quiz_SpriteSheet2-02_7
+  - first:
+      213: 5267990601854203638
+    second: Graphics_Quiz_SpriteSheet2-02_8
+  - first:
+      213: -5176967089643161996
+    second: Graphics_Quiz_SpriteSheet2-02_9
+  - first:
+      213: 2677887425604317776
+    second: Graphics_Quiz_SpriteSheet2-02_10
+  - first:
+      213: -1332394765318161171
+    second: Graphics_Quiz_SpriteSheet2-02_11
+  - first:
+      213: -6025445462498634540
+    second: Graphics_Quiz_SpriteSheet2-02_12
+  - first:
+      213: 1101166649297595320
+    second: Graphics_Quiz_SpriteSheet2-02_13
+  - first:
+      213: -2834744915783595137
+    second: Graphics_Quiz_SpriteSheet2-02_14
+  - first:
+      213: -2178952486600424188
+    second: Graphics_Quiz_SpriteSheet2-02_15
+  - first:
+      213: -9086023902491284208
+    second: Graphics_Quiz_SpriteSheet2-02_16
+  - first:
+      213: -7810580030530862258
+    second: Graphics_Quiz_SpriteSheet2-02_17
+  - first:
+      213: 615393107056841608
+    second: Graphics_Quiz_SpriteSheet2-02_18
+  - first:
+      213: 2265231537604097631
+    second: Graphics_Quiz_SpriteSheet2-02_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 977
+        width: 1754
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a2f15e28a57cee0800000000000000
+      internalID: -1240923654081009101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_1
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 975
+        width: 1117
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1435dcacd2afcec0800000000000000
+      internalID: -3544435313041132518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 592
+        width: 172
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42de64e1ea8568170800000000000000
+      internalID: 8180323278020603172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_3
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 511
+        width: 152
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617dbc122b6dfafd0800000000000000
+      internalID: -2328406421767727338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_4
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 508
+        width: 244
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a03b22d9711c79d0800000000000000
+      internalID: -2775324055452307296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_5
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 509
+        width: 155
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1820f5534faaac390800000000000000
+      internalID: -7797231838994431359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_6
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 566
+        width: 210
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41414351b8546f400800000000000000
+      internalID: 357549684081038356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_7
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 566
+        width: 208
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3247f15537ef38d0800000000000000
+      internalID: -2864316621789904324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_8
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 566
+        width: 210
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6bd979a89ab1940800000000000000
+      internalID: 5267990601854203638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_9
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 566
+        width: 168
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4767ee75cd7b728b0800000000000000
+      internalID: -5176967089643161996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_10
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 566
+        width: 168
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05271afec64c92520800000000000000
+      internalID: 2677887425604317776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 330
+        width: 172
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decfe903502628de0800000000000000
+      internalID: -1332394765318161171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_12
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 206
+        width: 211
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4974aa641516ca0800000000000000
+      internalID: -6025445462498634540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_13
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 206
+        width: 212
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbe3e9bb31284f00800000000000000
+      internalID: 1101166649297595320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_14
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 206
+        width: 210
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bcfd9a486f8a8d0800000000000000
+      internalID: -2834744915783595137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_15
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 201
+        width: 168
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4054abd024ec2c1e0800000000000000
+      internalID: -2178952486600424188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_16
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 201
+        width: 168
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d6c478665f7e180800000000000000
+      internalID: -9086023902491284208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 92
+        width: 132
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43c27e28de3b9390800000000000000
+      internalID: -7810580030530862258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_18
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 27
+        width: 452
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883d85735c05a8800800000000000000
+      internalID: 615393107056841608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graphics_Quiz_SpriteSheet2-02_19
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 27
+        width: 451
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5677ece418bf6f10800000000000000
+      internalID: 2265231537604097631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
