@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyScenes/Game_150_Quiz_Sto.unity
     guid: b2bce5264c260724c982b6686b06008b
+  - enabled: 1
+    path: Assets/MyScenes/Game_000160_Quiz_Sto.unity
+    guid: 84b5e6aa76158644c92cd2a49f9ab27a
   m_configObjects: {}

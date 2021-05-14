@@ -1725,7 +1725,7 @@ MonoBehaviour:
   - {fileID: 4563775415453250290}
   instructionsTxt: {fileID: 4563775414773672720}
   myAudioSource: {fileID: 6822162645555594568}
-  successSFX: {fileID: 8300000, guid: 8c61c99984df9f3429f2ec3755a754a6, type: 3}
+  successSFX: {fileID: 8300000, guid: 03bc1918c003c9841a2c48fe33e30b68, type: 3}
   failureSFX: {fileID: 8300000, guid: 9eedd54ac047ba9428356933f09b2665, type: 3}
   levelMapGameName: 130
 --- !u!82 &6822162645555594568

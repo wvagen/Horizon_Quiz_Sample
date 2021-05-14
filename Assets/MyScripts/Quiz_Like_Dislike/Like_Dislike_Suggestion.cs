@@ -9,9 +9,10 @@ public class Like_Dislike_Suggestion : MonoBehaviour
     bool isSelected = false;
     public void Select_Me()
     {
-        if (!isSelected)
+        if (!masterClass.isChoiceSelected && !isSelected)
         {
             isSelected = true;
+            masterClass.isChoiceSelected = true;
             masterClass.Select_A_Choice(this);
             StartCoroutine(Rotate_Animation_Coroutine());
         }
