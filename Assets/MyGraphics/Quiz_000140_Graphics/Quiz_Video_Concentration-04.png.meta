@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 7d5efa7201f37214bab4c9521adaf593
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6153988359334903596
+    second: Quiz_Video_Concentration-04_0
+  - first:
+      213: 4594600171237070168
+    second: Quiz_Video_Concentration-04_1
+  - first:
+      213: -1361675560714618414
+    second: Quiz_Video_Concentration-04_2
+  - first:
+      213: 3128638555853076426
+    second: Quiz_Video_Concentration-04_3
+  - first:
+      213: -3016985794716687864
+    second: Quiz_Video_Concentration-04_4
+  - first:
+      213: 7637783203691491872
+    second: Quiz_Video_Concentration-04_5
+  - first:
+      213: 5379018848644104854
+    second: Quiz_Video_Concentration-04_6
+  - first:
+      213: -3218719063938181837
+    second: Quiz_Video_Concentration-04_7
+  - first:
+      213: 1883275963624424594
+    second: Quiz_Video_Concentration-04_8
+  - first:
+      213: 3160354519561223450
+    second: Quiz_Video_Concentration-04_9
+  - first:
+      213: -1580828494090399440
+    second: Quiz_Video_Concentration-04_10
+  - first:
+      213: -8813680832211473077
+    second: Quiz_Video_Concentration-04_11
+  - first:
+      213: 9022172859671797216
+    second: Quiz_Video_Concentration-04_12
+  - first:
+      213: 8970999371568001043
+    second: Quiz_Video_Concentration-04_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_0
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 3183
+        width: 1005
+        height: 1008
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d044f14134a89aa0800000000000000
+      internalID: -6153988359334903596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_1
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 3127
+        width: 945
+        height: 1157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855d883338c43cf30800000000000000
+      internalID: 4594600171237070168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_2
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 3157
+        width: 1044
+        height: 1034
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d93640ca4b5a1de0800000000000000
+      internalID: -1361675560714618414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_3
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 3366
+        width: 879
+        height: 727
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b638b0382b6b20800000000000000
+      internalID: 3128638555853076426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_4
+      rect:
+        serializedVersion: 2
+        x: 6263
+        y: 3420
+        width: 957
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802238587638126d0800000000000000
+      internalID: -3016985794716687864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_7
+      rect:
+        serializedVersion: 2
+        x: 7797
+        y: 3254
+        width: 1185
+        height: 952
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335df2a9010d453d0800000000000000
+      internalID: -3218719063938181837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_8
+      rect:
+        serializedVersion: 2
+        x: 9369
+        y: 3464
+        width: 390
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2948dd9c28db22a10800000000000000
+      internalID: 1883275963624424594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_9
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1584
+        width: 1531
+        height: 1001
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d3fb6f0b5dbdb20800000000000000
+      internalID: 3160354519561223450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_10
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 1936
+        width: 1816
+        height: 644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0311de63cd4cf0ae0800000000000000
+      internalID: -1580828494090399440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_11
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 837
+        width: 1528
+        height: 1767
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dad50eaf38fa580800000000000000
+      internalID: -8813680832211473077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_12
+      rect:
+        serializedVersion: 2
+        x: 7181
+        y: 496
+        width: 2612
+        height: 2348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed58e21a62353d70800000000000000
+      internalID: 9022172859671797216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quiz_Video_Concentration-04_13
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 222
+        width: 1742
+        height: 1035
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3103096e5646f7c70800000000000000
+      internalID: 8970999371568001043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
