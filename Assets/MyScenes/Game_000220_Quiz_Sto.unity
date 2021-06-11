@@ -189,7 +189,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 05a89df044a2ca144a57cde9770b0153, type: 3}
+      objectReference: {fileID: 8300000, guid: 92551fdcf115e7d48878014a0790406a, type: 3}
     - target: {fileID: 5712046409204171595, guid: c6aeff4d6f1e219429d3169941ba1de8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -330,7 +330,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAnswerClip
       value: 
-      objectReference: {fileID: 8300000, guid: ddefd36b39b58164bb940f99f0c24b7f, type: 3}
+      objectReference: {fileID: 8300000, guid: 53c0fed9711230446921640fca5a54df, type: 3}
     - target: {fileID: 5712046410647442943, guid: c6aeff4d6f1e219429d3169941ba1de8,
         type: 3}
       propertyPath: m_Sprite
@@ -449,7 +449,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAnswerClip
       value: 
-      objectReference: {fileID: 8300000, guid: f1204315164d0074c8601ad1bb6e739f, type: 3}
+      objectReference: {fileID: 8300000, guid: fd2fca9163a9252458fbaf6a00a26b4b, type: 3}
     - target: {fileID: 8736480397160245975, guid: c6aeff4d6f1e219429d3169941ba1de8,
         type: 3}
       propertyPath: m_Sprite
@@ -466,7 +466,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAnswerClip
       value: 
-      objectReference: {fileID: 8300000, guid: 75e5b59e684623446b338d61538797d2, type: 3}
+      objectReference: {fileID: 8300000, guid: ca9ccdcfe4f2fef4bb325fd37fd72fad, type: 3}
     - target: {fileID: 8736480397295022030, guid: c6aeff4d6f1e219429d3169941ba1de8,
         type: 3}
       propertyPath: isRightAnswer
@@ -786,9 +786,9 @@ MonoBehaviour:
   - {fileID: 2008062289}
   - {fileID: 980687705}
   instructionsOptions:
-  - {fileID: 8300000, guid: 2269fa81a206a344fb8f2c0e6ce80c99, type: 3}
-  - {fileID: 8300000, guid: 05a89df044a2ca144a57cde9770b0153, type: 3}
-  - {fileID: 8300000, guid: 90074e546d8888f418abec572dcd9679, type: 3}
+  - {fileID: 8300000, guid: aff4e2bb30750034e978e9922b54895b, type: 3}
+  - {fileID: 8300000, guid: 3cb8a6b87cb47a5428f11d7710a280b4, type: 3}
+  - {fileID: 8300000, guid: 92551fdcf115e7d48878014a0790406a, type: 3}
   instructions:
   - "\u0627\u062E\u0652\u062A\u064E\u0627\u0631 \u0627\u0644\u0635\u0651\u064F\u0648\u0631\u064E\u0629\u064E
     \u0627\u0644\u0651\u064E\u062A\u0650\u064A \u062A\u064F\u0639\u064E\u0628\u0651\u0631\u064F
@@ -1159,7 +1159,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 2269fa81a206a344fb8f2c0e6ce80c99, type: 3}
+      objectReference: {fileID: 8300000, guid: aff4e2bb30750034e978e9922b54895b, type: 3}
     - target: {fileID: 3057785504479726098, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -1416,7 +1416,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 22fea317985940d4593ccd9e8e679813, type: 3}
+      objectReference: {fileID: 8300000, guid: 4790c013d11899e45904cdc739b61434, type: 3}
     - target: {fileID: 3392027041625605081, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: isRightAnswer
@@ -1520,7 +1520,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a67edeb1e0a551c43bc07840deff2745, type: 3}
+      objectReference: {fileID: 8300000, guid: be853fb89e7f5b447962aa02d1b7f891, type: 3}
     - target: {fileID: 6563592272651541221, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: isRightAnswer
@@ -1530,7 +1530,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 775b1429893e08b478bfd6148b702012, type: 3}
+      objectReference: {fileID: 8300000, guid: 0627bbda53a7e0f4d9e3dfd1f16cb7c9, type: 3}
     - target: {fileID: 6563592274074421164, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: isRightAnswer
@@ -2079,7 +2079,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 2269fa81a206a344fb8f2c0e6ce80c99, type: 3}
+      objectReference: {fileID: 8300000, guid: 3cb8a6b87cb47a5428f11d7710a280b4, type: 3}
     - target: {fileID: 3057785504479726098, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -2341,7 +2341,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 22fea317985940d4593ccd9e8e679813, type: 3}
+      objectReference: {fileID: 8300000, guid: e12dbd2e42e9c56469a59511e86485ee, type: 3}
     - target: {fileID: 4601532464090329875, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_Text
@@ -2439,7 +2439,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a67edeb1e0a551c43bc07840deff2745, type: 3}
+      objectReference: {fileID: 8300000, guid: 2f7648b47a532614fb561520d3d37348, type: 3}
     - target: {fileID: 6563592272651541221, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: isRightAnswer
@@ -2449,7 +2449,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 775b1429893e08b478bfd6148b702012, type: 3}
+      objectReference: {fileID: 8300000, guid: cb5daf61828fc594a80d478c2c03616a, type: 3}
     - target: {fileID: 6563592274074421164, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: isRightAnswer

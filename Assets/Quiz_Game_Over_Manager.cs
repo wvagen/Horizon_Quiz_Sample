@@ -223,7 +223,8 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
     {
         //Here we must adapt each code with the game
         Quiz_Game_Manager.currentLevelIndex = 0;
-        if (PlayerPrefs.GetInt("Tutorial_Finished_Profile_Menu", 0) == 0)
+        Time.timeScale = 1;
+        if (PlayerPrefs.GetInt("Dlc_Is_Open_From_Map", 0) == 0)
         {
             SceneManager.LoadScene("1-Main_Menu");
         }
@@ -251,7 +252,7 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
 
     public void Set_Level_As_Finished()
     {
-        PlayerPrefs.SetString(LEVEL_REACHED_KEY, PlayerPrefs.GetString(LEVEL_REACHED_KEY, string.Empty) + "-" + levelMapGameName);
+        PlayerPrefs.SetString(LEVEL_REACHED_KEY, PlayerPrefs.GetString(LEVEL_REACHED_KEY, string.Empty) + levelMapGameName + "-");
     }
 
 }
