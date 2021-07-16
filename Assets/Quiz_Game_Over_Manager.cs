@@ -32,7 +32,7 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
     bool isContainerScaled = false;
     byte starsScaledCount = 0;
 
-    const string gameDataKey = "game_data_level";
+    const string GAME_DATA_KEY = "game_data_level";
     const string LEVEL_REACHED_KEY = "Level_Reached";
 
     void Start()
@@ -66,8 +66,8 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
 
     public void WinLoseLevelManager(bool isWin, int starsCount)
     {
-        WinLoseLevelManager(true);
-        //SaveDataManager(starsCount, Memory_Game_Manager.levelIndex);
+        WinLoseLevelManager(isWin);
+        SaveDataManager(starsCount);
         StartCoroutine(starsAnimation(starsCount));
     }
 
@@ -234,25 +234,27 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
         }
     }
 
-    void SaveDataManager(int starsOwned, byte levelIndex)
+    void SaveDataManager(int starsOwned)
     {
-        if (PlayerPrefs.HasKey(gameDataKey + levelIndex))
+        if (PlayerPrefs.HasKey(GAME_DATA_KEY + levelMapGameName))
         {
-            if (PlayerPrefs.GetInt(gameDataKey + levelIndex, 0) < starsOwned)
+            if (PlayerPrefs.GetInt(GAME_DATA_KEY + levelMapGameName, 0) < starsOwned)
             {
-                PlayerPrefs.SetInt(gameDataKey + levelIndex, starsOwned);
+                PlayerPrefs.SetInt(GAME_DATA_KEY + levelMapGameName, starsOwned);
             }
         }
         else
         {
-            PlayerPrefs.SetInt(gameDataKey + levelIndex, starsOwned);
+            PlayerPrefs.SetInt(GAME_DATA_KEY + levelMapGameName, starsOwned);
         }
-
     }
 
     public void Set_Level_As_Finished()
     {
         PlayerPrefs.SetString(LEVEL_REACHED_KEY, PlayerPrefs.GetString(LEVEL_REACHED_KEY, string.Empty) + levelMapGameName + "-");
+
+        PlayerPrefs.SetInt(levelMapGameName + "stars", PlayerPrefs.GetInt(GAME_DATA_KEY + levelMapGameName));
+
     }
 
 }
