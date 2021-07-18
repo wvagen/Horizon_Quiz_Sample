@@ -396,8 +396,8 @@ PrefabInstance:
     - target: {fileID: 7821262096243445431, guid: c6aeff4d6f1e219429d3169941ba1de8,
         type: 3}
       propertyPath: m_Text
-      value: "\u0627\u0644\u062A\u064E\u0651\u0631\u0652\u0643\u064A\u0632\u064F
-        \u0641\u0650\u064A \u0627\u0644\u062F\u0650\u0651\u0631\u0627\u0633\u064E\u0629\u0650 "
+      value: "\u0627\u0644\u062A\u064E\u0651\u0631\u0652\u0643\u064A\u0632\u064E
+        \u0641\u0650\u064A \u0627\u0644\u062F\u0650\u0651\u0631\u0627\u0633\u064E\u0629\u0650"
       objectReference: {fileID: 0}
     - target: {fileID: 7821262096243445431, guid: c6aeff4d6f1e219429d3169941ba1de8,
         type: 3}
@@ -428,12 +428,12 @@ PrefabInstance:
         type: 3}
       propertyPath: myAnswerClip
       value: 
-      objectReference: {fileID: 8300000, guid: f1204315164d0074c8601ad1bb6e739f, type: 3}
+      objectReference: {fileID: 8300000, guid: 75e5b59e684623446b338d61538797d2, type: 3}
     - target: {fileID: 8736480397295022030, guid: c6aeff4d6f1e219429d3169941ba1de8,
         type: 3}
       propertyPath: myAnswerClip
       value: 
-      objectReference: {fileID: 8300000, guid: 75e5b59e684623446b338d61538797d2, type: 3}
+      objectReference: {fileID: 8300000, guid: f1204315164d0074c8601ad1bb6e739f, type: 3}
     - target: {fileID: 8736480397295022030, guid: c6aeff4d6f1e219429d3169941ba1de8,
         type: 3}
       propertyPath: isRightAnswer
@@ -1060,7 +1060,7 @@ PrefabInstance:
     - target: {fileID: 3057785504793520701, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3057785504793520702, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
@@ -1170,22 +1170,22 @@ PrefabInstance:
     - target: {fileID: 3057785504964482930, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3057785504964482930, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3057785504964482930, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 189.18213
       objectReference: {fileID: 0}
     - target: {fileID: 3057785504964482930, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -219.13666
       objectReference: {fileID: 0}
     - target: {fileID: 3057785505107129543, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
@@ -1196,12 +1196,12 @@ PrefabInstance:
     - target: {fileID: 3057785505421095763, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -911.5325
       objectReference: {fileID: 0}
     - target: {fileID: 3057785505421095763, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 438.27332
       objectReference: {fileID: 0}
     - target: {fileID: 3057785505421095763, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
@@ -1216,7 +1216,7 @@ PrefabInstance:
     - target: {fileID: 4601532464090329875, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_Text
-      value: "\u0627\u0644\u0633\u0650\u0651\u0628\u0627\u062D\u064E\u0629\u064F"
+      value: "\u0627\u0644\u0633\u0650\u0651\u0628\u0627\u062D\u064E\u0629"
       objectReference: {fileID: 0}
     - target: {fileID: 4601532464090329875, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
@@ -1312,22 +1312,22 @@ PrefabInstance:
     - target: {fileID: 6803559483391266382, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6803559483391266382, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6803559483391266382, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 617.5464
       objectReference: {fileID: 0}
     - target: {fileID: 6803559483391266382, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -219.13666
       objectReference: {fileID: 0}
     - target: {fileID: 6803559483942605614, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
@@ -1348,22 +1348,22 @@ PrefabInstance:
     - target: {fileID: 6803559484747043591, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6803559484747043591, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6803559484747043591, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1045.9106
       objectReference: {fileID: 0}
     - target: {fileID: 6803559484747043591, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -219.13666
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21e0951432f223143a499f4203eb2299, type: 3}
@@ -1691,7 +1691,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 94cfc9c672744994aa051c1b0eddf10a, type: 3}
+      objectReference: {fileID: 8300000, guid: 062c9df793a970e4d81674d2fe8f4dae, type: 3}
     - target: {fileID: 3392027041625605081, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: isRightAnswer
@@ -1782,7 +1782,7 @@ PrefabInstance:
         type: 3}
       propertyPath: myAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 062c9df793a970e4d81674d2fe8f4dae, type: 3}
+      objectReference: {fileID: 8300000, guid: 94cfc9c672744994aa051c1b0eddf10a, type: 3}
     - target: {fileID: 6563592274074421164, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: isRightAnswer

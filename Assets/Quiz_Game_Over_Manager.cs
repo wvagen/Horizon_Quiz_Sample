@@ -27,10 +27,11 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
     public static bool sfxOn = true;
 
     public string levelMapGameName;
-
+    
     bool isStarScaled = true;
     bool isContainerScaled = false;
     byte starsScaledCount = 0;
+    bool isButtonSupposedToClickOnce = false;
 
     const string GAME_DATA_KEY = "game_data_level";
     const string LEVEL_REACHED_KEY = "Level_Reached";
@@ -168,9 +169,13 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
 
     public void NextLevel()
     {
-        //Here we must adapt each code with the game
-        Quiz_Game_Manager.currentLevelIndex++;
-        RetryLevel();
+        if (!isButtonSupposedToClickOnce)
+        {
+            //Here we must adapt each code with the game
+            isButtonSupposedToClickOnce = true;
+            Quiz_Game_Manager.currentLevelIndex++;
+            RetryLevel();
+        }
     }
 
     public void MusicBtn()
