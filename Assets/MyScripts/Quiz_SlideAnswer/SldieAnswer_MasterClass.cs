@@ -12,7 +12,7 @@ public class SldieAnswer_MasterClass : MonoBehaviour
 
     public Button confirmBtn;
 
-    SlideAnswer_Game_Suggestion sliderGameSugg;
+    public SlideAnswer_Game_Suggestion sliderGameSugg;
 
     bool isFilled =false;
 

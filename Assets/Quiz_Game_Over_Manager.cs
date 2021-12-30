@@ -58,8 +58,11 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
             star.SetActive(false);
         }
 
-        if (isWin) myAudioSource.PlayOneShot(successSFX);
-        else myAudioSource.PlayOneShot(failureSFX);
+        if (sfxOn)
+        {
+            if (isWin) myAudioSource.PlayOneShot(successSFX);
+            else myAudioSource.PlayOneShot(failureSFX);
+        }
 
         StartCoroutine(containerPanelAnimation());
     }
@@ -74,13 +77,17 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
 
     void SoundsStats()
     {
+        musicOn = (PlayerPrefs.GetInt("Sound_Enabled", 1) == 1);
+
         if (musicOn)
         {
             musicImg.sprite = musicBtnOnSprite;
+            GameObject.Find("Music_Player").GetComponent<AudioSource>().enabled = true;
         }
         else
         {
             musicImg.sprite = musicBtnOffSprite;
+            GameObject.Find("Music_Player").GetComponent<AudioSource>().enabled = false;
         }
 
         if (sfxOn)
@@ -183,12 +190,16 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
         if (musicOn)
         {
             musicOn = false;
+            GameObject.Find("Music_Player").GetComponent<AudioSource>().enabled = false;
             musicImg.sprite = musicBtnOffSprite;
+            PlayerPrefs.SetInt("Sound_Enabled", 0);
         }
         else
         {
             musicOn = true;
+            GameObject.Find("Music_Player").GetComponent<AudioSource>().enabled = true;
             musicImg.sprite = musicBtnOnSprite;
+            PlayerPrefs.SetInt("Sound_Enabled", 1);
         }
     }
 

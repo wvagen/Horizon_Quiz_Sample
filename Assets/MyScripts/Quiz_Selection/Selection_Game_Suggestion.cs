@@ -23,7 +23,7 @@ public class Selection_Game_Suggestion : MonoBehaviour
 
     public void PlayAnswerSound()
     {
-        if (myAudioClip)
+        if (myAudioClip && Quiz_Game_Over_Manager.sfxOn)
             myAudioSource.PlayOneShot(myAudioClip);
     }
 

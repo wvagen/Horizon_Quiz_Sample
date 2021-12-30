@@ -10,7 +10,7 @@ public class Question_Behaviour : MonoBehaviour
 
     public void PlayQuestionSound()
     {
-        if (myAudioClip)
+        if (myAudioClip && Quiz_Game_Over_Manager.sfxOn)
         myAudioSource.PlayOneShot(myAudioClip);
     }
 

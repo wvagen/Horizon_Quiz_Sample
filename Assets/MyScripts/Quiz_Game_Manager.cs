@@ -40,6 +40,7 @@ public class Quiz_Game_Manager : MonoBehaviour
         if (currentLevelIndex < quizLevels.Length)
         {
             quizLevels[currentLevelIndex].SetActive(true);
+            if (Quiz_Game_Over_Manager.sfxOn)
             myAudioSource.PlayOneShot(instructionsOptions[currentLevelIndex]);
             quizGameOverManager.instructionsTxt.text = instructions[currentLevelIndex];
         }

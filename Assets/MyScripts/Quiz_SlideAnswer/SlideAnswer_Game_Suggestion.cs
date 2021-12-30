@@ -52,6 +52,7 @@ public class SlideAnswer_Game_Suggestion : MonoBehaviour
 
     public void Listen_To_Answer_Btn()
     {
+        if (Quiz_Game_Over_Manager.sfxOn)
         myAudioSource.PlayOneShot(myAnswerClip);
     }
 
