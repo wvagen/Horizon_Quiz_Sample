@@ -45,7 +45,7 @@ public class Match_MasterClass : MonoBehaviour
     public void CheckTheSolution(short part1Indice, short part2Indice)
     {
 
-        if (rightAnswers[part1Indice].y == part2Indice)
+        if (Mathf.Abs(rightAnswers[part1Indice].y - part2Indice) < 0.1f)
         {
             pointCount++;
         }
