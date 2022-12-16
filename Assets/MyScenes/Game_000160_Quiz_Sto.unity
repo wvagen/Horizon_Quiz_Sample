@@ -130,6 +130,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1628199341}
     m_Modifications:
+    - target: {fileID: 597317493989145671, guid: c6aeff4d6f1e219429d3169941ba1de8,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.18396229
+      objectReference: {fileID: 0}
+    - target: {fileID: 597317493989145671, guid: c6aeff4d6f1e219429d3169941ba1de8,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.37204087
+      objectReference: {fileID: 0}
+    - target: {fileID: 597317493989145671, guid: c6aeff4d6f1e219429d3169941ba1de8,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5712046409204171588, guid: c6aeff4d6f1e219429d3169941ba1de8,
         type: 3}
       propertyPath: m_Text
@@ -303,6 +318,12 @@ PrefabInstance:
       propertyPath: isRightAnswer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5712046410908019061, guid: c6aeff4d6f1e219429d3169941ba1de8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 21a720df3e95d4e9cbf40d621813f806,
+        type: 3}
     - target: {fileID: 5712046411070501343, guid: c6aeff4d6f1e219429d3169941ba1de8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1270,7 +1291,7 @@ PrefabInstance:
     - target: {fileID: 3057785505421095763, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -635.7428
+      value: -647.9767
       objectReference: {fileID: 0}
     - target: {fileID: 3057785505421095763, guid: 21e0951432f223143a499f4203eb2299,
         type: 3}
