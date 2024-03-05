@@ -45,14 +45,14 @@ public class Quiz_Game_Over_Manager : MonoBehaviour
     public void WinLoseLevelManager(bool isWin)
     {
         GameOverPanel.SetActive(true);
-        //foreach (GameObject o in successGameObjects)
-        //{
-        //    o.SetActive(isWin);
-        //}
-        //foreach (GameObject o in failureGameObjects)
-        //{
-        //    o.SetActive(!isWin);
-        //}
+        foreach (GameObject o in successGameObjects)
+        {
+            o.SetActive(isWin);
+        }
+        foreach (GameObject o in failureGameObjects)
+        {
+            o.SetActive(!isWin);
+        }
         foreach (GameObject star in starsOwned)
         {
             star.SetActive(false);
